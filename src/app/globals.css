@@ -240,6 +240,13 @@ body {
   line-height: 1.6;
 }
 
+/* ── Card Links ── */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* ── Project Cards ── */
 .project-card {
   cursor: pointer;

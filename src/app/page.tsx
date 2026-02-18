@@ -63,25 +63,29 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Project: StatementDesk */}
-      <div className="card project-card fade-up">
-        <div className="project-label">Product</div>
-        <h3>StatementDesk</h3>
-        <div className="tagline">
-          PDF bank statement converter for UK accountants.
+      {/* Project: Statement Desk */}
+      <a href="https://statementdesk.com" target="_blank" rel="noopener noreferrer" className="card-link">
+        <div className="card project-card fade-up">
+          <div className="project-label">Product</div>
+          <h3>Statement Desk</h3>
+          <div className="tagline">
+            PDF bank statement converter for UK accountants.
+          </div>
+          <span className="badge badge-revenue">Generating Revenue</span>
         </div>
-        <span className="badge badge-revenue">Generating Revenue</span>
-      </div>
+      </a>
 
       {/* Project: Genscript */}
-      <div className="card project-card fade-up">
-        <div className="project-label">Product</div>
-        <h3>Genscript</h3>
-        <div className="tagline">
-          AI-powered YouTube script generation. 7 active users.
+      <a href="https://genscript.io" target="_blank" rel="noopener noreferrer" className="card-link">
+        <div className="card project-card fade-up">
+          <div className="project-label">Product</div>
+          <h3>Genscript</h3>
+          <div className="tagline">
+            AI-powered YouTube script generation. 7 active users.
+          </div>
+          <span className="badge badge-live">Live</span>
         </div>
-        <span className="badge badge-live">Live</span>
-      </div>
+      </a>
 
       {/* Project: Stash'd */}
       <div className="card project-card visual-card fade-up">
@@ -97,26 +101,30 @@ export default function Home() {
       </div>
 
       {/* Project: Reelytics */}
-      <div className="card project-card fade-up">
-        <div className="project-label">Product</div>
-        <h3>Reelytics</h3>
-        <div className="tagline">
-          Analytics for short video content &amp; drama series on DramaBox and
-          more.
+      <a href="https://reelytics.io" target="_blank" rel="noopener noreferrer" className="card-link">
+        <div className="card project-card fade-up">
+          <div className="project-label">Product</div>
+          <h3>Reelytics</h3>
+          <div className="tagline">
+            Analytics for short video content &amp; drama series on DramaBox and
+            more.
+          </div>
+          <span className="badge badge-soon">In Development</span>
         </div>
-        <span className="badge badge-soon">In Development</span>
-      </div>
+      </a>
 
       {/* Project: FlipChecker */}
-      <div className="card project-card fade-up">
-        <div className="project-label">Product</div>
-        <h3>FlipChecker</h3>
-        <div className="tagline">
-          Reseller tool + Chrome extension. Facebook Marketplace to eBay,
-          simplified.
+      <a href="https://flipchecker.io" target="_blank" rel="noopener noreferrer" className="card-link">
+        <div className="card project-card fade-up">
+          <div className="project-label">Product</div>
+          <h3>FlipChecker</h3>
+          <div className="tagline">
+            Reseller tool + Chrome extension. Facebook Marketplace to eBay,
+            simplified.
+          </div>
+          <span className="badge badge-soon">In Development</span>
         </div>
-        <span className="badge badge-soon">In Development</span>
-      </div>
+      </a>
 
       {/* The Dark Files Card */}
       <div className="card darkfiles-card fade-up">
@@ -191,7 +199,7 @@ export default function Home() {
 
         <div className="roadmap-label">Up Next</div>
         <div className="roadmap-item">
-          Scale StatementDesk to more UK firms
+          Scale Statement Desk to more UK firms
         </div>
         <div className="roadmap-item">Launch ScamShield Chrome extension</div>
         <div className="roadmap-item">Launch Reelytics for content creators</div>
