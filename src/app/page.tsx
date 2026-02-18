@@ -97,8 +97,8 @@ export default function Home() {
       </div>
 
       {/* Project: Reelytics */}
-      <div className="card project-card reelytics-card fade-up">
-        <div className="reelytics-icon">📊</div>
+      <div className="card project-card fade-up">
+        <div className="project-label">Product</div>
         <h3>Reelytics.io</h3>
         <div className="tagline">
           Analytics for short video content &amp; drama series on DramaBox and
@@ -108,8 +108,8 @@ export default function Home() {
       </div>
 
       {/* Project: FlipChecker */}
-      <div className="card project-card flipchecker-card fade-up">
-        <div className="flipchecker-icon">🔄</div>
+      <div className="card project-card fade-up">
+        <div className="project-label">Product</div>
         <h3>FlipChecker</h3>
         <div className="tagline">
           Reseller tool + Chrome extension. Facebook Marketplace to eBay,
@@ -125,6 +125,22 @@ export default function Home() {
         <div className="tagline">
           YouTube channel covering cybersecurity, scams &amp; fraud. Stories
           paired with tools I build.
+        </div>
+        <span
+          className="badge badge-live"
+          style={{ background: "rgba(220,38,38,0.12)", color: "#ef4444" }}
+        >
+          YouTube
+        </span>
+      </div>
+
+      {/* Build with Dom Card */}
+      <div className="card buildwithdom-card fade-up">
+        <div className="buildwithdom-icon">▶</div>
+        <h3>Build with Dom</h3>
+        <div className="tagline">
+          YouTube channel documenting building SaaS products, coding tutorials
+          &amp; the indie hacker journey.
         </div>
         <span
           className="badge badge-live"
