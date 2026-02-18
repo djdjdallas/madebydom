@@ -73,10 +73,10 @@ export default function Home() {
         <span className="badge badge-revenue">Generating Revenue</span>
       </div>
 
-      {/* Project: genscript */}
+      {/* Project: Genscript */}
       <div className="card project-card fade-up">
         <div className="project-label">Product</div>
-        <h3>genscript</h3>
+        <h3>Genscript</h3>
         <div className="tagline">
           AI-powered YouTube script generation. 7 active users.
         </div>
@@ -99,7 +99,7 @@ export default function Home() {
       {/* Project: Reelytics */}
       <div className="card project-card fade-up">
         <div className="project-label">Product</div>
-        <h3>Reelytics.io</h3>
+        <h3>Reelytics</h3>
         <div className="tagline">
           Analytics for short video content &amp; drama series on DramaBox and
           more.
@@ -194,7 +194,7 @@ export default function Home() {
           Scale StatementDesk to more UK firms
         </div>
         <div className="roadmap-item">Launch ScamShield Chrome extension</div>
-        <div className="roadmap-item">Launch Reelytics.io for content creators</div>
+        <div className="roadmap-item">Launch Reelytics for content creators</div>
         <div className="roadmap-item">Ship FlipChecker extension</div>
         <div className="roadmap-item">Grow The Dark Files to 10K subs</div>
         <div className="roadmap-item">Hit $7.5K MRR across products</div>
