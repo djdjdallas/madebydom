@@ -37,16 +37,19 @@ export default function Home() {
 
       {/* Avatar */}
       <div className="avatar-section fade-up">
-        <div className="avatar-wrapper">
-          <Image
-            src="/avatar.png"
-            alt="Dom - 3D Avatar"
-            width={480}
-            height={480}
-            priority
-          />
+        <div className="avatar-row">
+          <span className="avatar-tagline-left">ship fast.</span>
+          <div className="avatar-wrapper">
+            <Image
+              src="/avatar-new.png"
+              alt="Dom - 3D Avatar"
+              width={500}
+              height={500}
+              priority
+            />
+          </div>
+          <span className="avatar-tagline-right">iterate faster.</span>
         </div>
-        <div className="avatar-tagline">ship fast. iterate faster.</div>
       </div>
 
       {/* Hire Me Card */}
@@ -69,9 +72,9 @@ export default function Home() {
           <div className="project-label">Product</div>
           <h3>Statement Desk</h3>
           <div className="tagline">
-            PDF bank statement converter for UK accountants.
+            PDF bank statement converter for accountants.
           </div>
-          <span className="badge badge-revenue">Generating Revenue</span>
+          <span className="badge badge-live">Live</span>
         </div>
       </a>
 
@@ -81,24 +84,26 @@ export default function Home() {
           <div className="project-label">Product</div>
           <h3>Genscript</h3>
           <div className="tagline">
-            AI-powered YouTube script generation. 7 active users.
+            AI-powered YouTube script generation.
           </div>
           <span className="badge badge-live">Live</span>
         </div>
       </a>
 
       {/* Project: Stash'd */}
-      <div className="card project-card visual-card fade-up">
-        <div>
-          <div className="project-label">Product</div>
-          <h3>Stash&apos;d</h3>
-          <div className="tagline">
-            Save screenshots. Organize ideas. Ship faster.
+      <a href="https://apps.apple.com/us/app/stashd/id6756090907" target="_blank" rel="noopener noreferrer" className="card-link">
+        <div className="card project-card visual-card fade-up">
+          <div>
+            <div className="project-label">Product</div>
+            <h3>Stash&apos;d</h3>
+            <div className="tagline">
+              Save screenshots. Organize ideas. Ship faster.
+            </div>
+            <span className="badge badge-live">Live</span>
           </div>
-          <span className="badge badge-live">Live</span>
+          <div className="orb"></div>
         </div>
-        <div className="orb"></div>
-      </div>
+      </a>
 
       {/* Project: Reelytics */}
       <a href="https://reelytics.io" target="_blank" rel="noopener noreferrer" className="card-link">
@@ -109,7 +114,7 @@ export default function Home() {
             Analytics for short video content &amp; drama series on DramaBox and
             more.
           </div>
-          <span className="badge badge-soon">In Development</span>
+          <span className="badge badge-live">Live</span>
         </div>
       </a>
 
@@ -122,7 +127,7 @@ export default function Home() {
             Reseller tool + Chrome extension. Facebook Marketplace to eBay,
             simplified.
           </div>
-          <span className="badge badge-soon">In Development</span>
+          <span className="badge badge-live">Live</span>
         </div>
       </a>
 
@@ -166,7 +171,7 @@ export default function Home() {
           <div className="tagline">
             Chrome extension for detecting crypto scams.
           </div>
-          <span className="badge badge-soon">In Development</span>
+          <span className="badge badge-live">Live</span>
         </div>
         <span className="coming-soon-text">Coming Soon</span>
       </div>
