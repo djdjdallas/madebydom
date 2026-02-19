@@ -185,31 +185,13 @@ body {
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
 }
 
-.avatar-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-}
-
-.avatar-tagline-left,
-.avatar-tagline-right {
-  font-size: 13px;
+.avatar-tagline {
+  margin-top: 8px;
+  font-size: 14px;
   color: var(--text-secondary);
   font-family: var(--font-space-mono), monospace;
-  white-space: nowrap;
   position: relative;
   z-index: 2;
-}
-
-.avatar-tagline-left {
-  text-align: right;
-  margin-right: -20px;
-}
-
-.avatar-tagline-right {
-  text-align: left;
-  margin-left: -20px;
 }
 
 /* ── Hire Card ── */
@@ -278,7 +260,8 @@ body {
 
 .project-card:hover {
   transform: translateY(-2px);
-  border-color: #2a2a2a;
+  border-color: #333;
+  background: #1a1a1a;
 }
 
 .project-label {
@@ -333,7 +316,9 @@ body {
 }
 
 .darkfiles-card:hover {
+  transform: translateY(-2px);
   border-color: #3a2020;
+  background: linear-gradient(160deg, #222 0%, #151010 50%, #1f0e0e 100%);
 }
 
 .darkfiles-icon {
@@ -402,7 +387,9 @@ body {
 }
 
 .buildwithdom-card:hover {
+  transform: translateY(-2px);
   border-color: #203a25;
+  background: linear-gradient(160deg, #222 0%, #141a14 50%, #0f1f14 100%);
 }
 
 .buildwithdom-icon {
@@ -523,22 +510,24 @@ body {
   padding: 48px 0 24px;
 }
 
-.footer-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-secondary);
-  font-size: 14px;
-  text-decoration: none;
-  transition: color 0.2s;
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
   margin-bottom: 24px;
 }
 
-.footer-link:hover {
+.footer-icon {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-icon:hover {
   color: var(--text-primary);
 }
 
-.footer-link svg {
+.footer-icon svg {
   width: 18px;
   height: 18px;
 }
