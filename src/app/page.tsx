@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ScrollAnimator from "./scroll-animator";
+import NewsletterForm from "./newsletter-form";
 
 export default function Home() {
   return (
@@ -29,10 +30,7 @@ export default function Home() {
           <br />
           Lessons learned.
         </div>
-        <div className="newsletter-form">
-          <input type="email" placeholder="you@email.com" />
-          <button>Subscribe</button>
-        </div>
+        <NewsletterForm />
       </div>
 
       {/* Avatar */}
