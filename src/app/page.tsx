@@ -129,20 +129,6 @@ export default function Home() {
         </span>
       </div>
 
-      {/* Tech Stack Card */}
-      <div className="card fade-up">
-        <div className="project-label">Built with</div>
-        <div className="stack-grid">
-          <span className="stack-tag">Next.js 15</span>
-          <span className="stack-tag">Supabase</span>
-          <span className="stack-tag">React Native</span>
-          <span className="stack-tag">Tailwind CSS</span>
-          <span className="stack-tag">shadcn/ui</span>
-          <span className="stack-tag">Stripe</span>
-          <span className="stack-tag">Vercel</span>
-        </div>
-      </div>
-
       {/* Roadmap Card */}
       <div className="card roadmap-card fade-up">
         <div className="pipeline">

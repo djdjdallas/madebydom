@@ -486,24 +486,6 @@ body {
   letter-spacing: -1px;
 }
 
-/* ── Tech Stack ── */
-.stack-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 16px;
-}
-
-.stack-tag {
-  padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  font-size: 13px;
-  color: var(--text-secondary);
-  font-weight: 400;
-}
-
 /* ── Footer ── */
 .footer {
   text-align: center;
