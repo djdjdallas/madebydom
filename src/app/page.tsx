@@ -59,6 +59,9 @@ export default function Home() {
           <br />
           Founders, let&apos;s talk.
         </div>
+        <a href="mailto:dominickjerell@gmail.com" className="hire-cta">
+          Get in touch &rarr;
+        </a>
       </div>
 
       {/* Project: Statement Desk */}
@@ -69,7 +72,11 @@ export default function Home() {
           <div className="tagline">
             PDF bank statement converter for accountants.
           </div>
-          <span className="badge badge-live">Live</span>
+          <div className="badge-row">
+            <span className="badge badge-live">Live</span>
+            <span className="badge badge-revenue">$1.2K MRR</span>
+            <span className="badge badge-users">100+ users</span>
+          </div>
         </div>
       </a>
 
@@ -97,7 +104,10 @@ export default function Home() {
           <div className="tagline">
             AI-powered YouTube script generation.
           </div>
-          <span className="badge badge-live">Live</span>
+          <div className="badge-row">
+            <span className="badge badge-live">Live</span>
+            <span className="badge badge-users">25+ users</span>
+          </div>
         </div>
       </a>
 
