@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* Project: Statement Desk */}
-      <a href="https://statementdesk.com" target="_blank" rel="noopener noreferrer" className="card-link">
+      <a href="https://statementdesk.com?utm_source=portfolio&utm_medium=website&utm_campaign=statementdesk" target="_blank" rel="noopener noreferrer" className="card-link">
         <div className="card project-card fade-up">
           <div className="project-label">Product</div>
           <h3>Statement Desk</h3>
@@ -97,7 +97,7 @@ export default function Home() {
       </div>
 
       {/* Project: Genscript */}
-      <a href="https://genscript.io" target="_blank" rel="noopener noreferrer" className="card-link">
+      <a href="https://genscript.io?utm_source=portfolio&utm_medium=website&utm_campaign=genscript" target="_blank" rel="noopener noreferrer" className="card-link">
         <div className="card project-card fade-up">
           <div className="project-label">Product</div>
           <h3>Genscript</h3>
@@ -112,7 +112,7 @@ export default function Home() {
       </a>
 
       {/* Project: FlipChecker */}
-      <a href="https://flipchecker.io" target="_blank" rel="noopener noreferrer" className="card-link">
+      <a href="https://flipchecker.io?utm_source=portfolio&utm_medium=website&utm_campaign=flipchecker" target="_blank" rel="noopener noreferrer" className="card-link">
         <div className="card project-card fade-up">
           <div className="project-label">Product</div>
           <h3>FlipChecker</h3>
