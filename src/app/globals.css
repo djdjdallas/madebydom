@@ -604,6 +604,68 @@ body {
   animation-delay: 0.6s;
 }
 
+/* ── Back Link ── */
+.back-link {
+  font-family: var(--font-space-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+/* ── Websites Page ── */
+.websites-intro {
+  text-align: center;
+  background: linear-gradient(180deg, #1a1a1a 0%, #111 100%);
+}
+
+.websites-intro h1 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.websites-subtitle {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.website-card {
+  cursor: pointer;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.website-card:hover {
+  transform: translateY(-2px);
+  border-color: #333;
+  background: #1a1a1a;
+}
+
+.website-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+
+.website-card .tagline {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.badge-tech {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+}
+
 /* ── Responsive ── */
 @media (min-width: 600px) {
   .container {
